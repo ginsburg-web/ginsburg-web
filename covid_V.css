@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body*/
+body{
+   
+   
+    background-size: 100%;
+    background-color: #e0e4eb;
+
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+.box{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60px;
+    height: 60px;
+    transition: .5s;
+}
+.box label{
+    position: absolute;
+    right: -100;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align:center;
+    color: gray;
+    font-size: 23px;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: -5px -5px 8px #edeff1,
+    5px 5px 10px #cacfd8;
+}
+.box label:hover{
+    box-shadow: -10px -10px 15px #edeff1,
+    10px 10px 15px #cacfd8;
+   transform: scale(1.1);
+}
+.box input{
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 19px;
+    padding-left: 20px;
+    color: gray;
+    box-shadow: -10px -10px 15px #edeff1,
+    10px 10px 15px #cacfd8;
+    transition: .5s;
+    opacity: 0;
+}
+.box input:focus{
+    box-shadow: -10px -10px 40px #edeff1,
+    10px 10px 40px #cacfd8;
+}
+ #check:checked+.box> input{
+    opacity: 1;
+    width: 500px;
+ }
+ #check:checked+.box> label{
+    box-shadow: none;
+
+ }
+
+ #check:checked+.box > label:hover{
+    transform: scale(1);
+    
+ }
+ /*head*/
+.coro h1{
+     color:  #e8c733;
+     text-align: center;
+     text-shadow: 1px 1px 0 #b52b2b,
+     2px 2px 0 #b52b2b,
+      3px 3px 0 #b52b2b,
+      4px 4px 0 #b52b2b,
+      5px 5px 0 #b52b2b,
+      6px 6px 0 #b52b2b,
+      7px 7px 0 #b52b2b,
+      8px 8px 0 #b52b2b,
+      9px 9px 0 #b52b2b,
+      10px 10px 0 #b52b2b;
+     font-family:fantasy;
+     font-weight: lighter;
+     letter-spacing: 15px;
+     font-size: 85px;
+     padding: 50;
+   
+}
+.coro img{
+    width: -50%;
+    height: 30%;
+    border-radius: 50%;
+
+}
+.last img{
+    width: 30%;
+    height: 60%;
+    border-radius: 60%;
+}
+
+.cov .sam p{
+    line-height: 30px;
+    width:100%;
+    height: auto;
+    padding: 50px;
+}
+.cov h2{
+      color: rgb(43, 11, 119);
+      text-shadow: 2px 2px 5px rgb(229, 233, 11);
+      text-align: left;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 50px;
+
+}
+.cov img {
+  
+    width: 50%;
+    margin-top: -5px,0%;
+    display: flex;
+    margin: auto;
+    padding-top: -10px;
+    padding-bottom: 100px;
+    border-radius: 50%;
+    
+}
+.cov p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+   
+
+}
+
+.sam h2{
+    color: rgb(11, 119, 105);
+    text-shadow: 2px 2px 5px rgb(229, 233, 11);
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+    padding: 50;
+}
+
+.sam ul {
+    list-style-type:circle ;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 200%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0c0b0c;
+    font-weight: 700;
+  }
+
+.sam img{
+    align-items: center;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.sam p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.math{
+    border-radius: 0%;
+    width: 60%;
+    display: flex;
+    margin:auto;
+    padding-top: 30px;
+    margin-left: 40%;
+    margin-right: auto;
+   
+
+   
+}
+.vac{
+    color: rgb(11, 119, 105);
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(229, 233, 11);
+    font-family:Sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 50;
+}
+ /*table*/
+.table{
+    margin-top: 5%;
+    
+}
+.table th{
+    font-family: sans-serif;
+    font-size: 30;
+    color: black;
+    margin-bottom: 10%;
+  
+}
+
+.table td{
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+.point{
+    list-style-type:square ;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 200%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0c0b0c;
+    font-weight: 700;
+}
+.small{
+    color: rgb(223, 32, 32);
+    text-shadow: 2px 2px 5px rgb(229, 233, 11);
+    font-family:Sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 50;
+    margin-top: 10%;
+}
+.alin{
+    list-style-type:circle ;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 150%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #423664;
+    font-weight: 500;
+}
+
+
+.mac{
+    color: rgb(180, 84, 175);
+    text-shadow: 2px 2px 5px rgb(229, 233, 11);
+    font-family:Sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 50;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.mac p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*------------ Button --------*/
+
+.hero{
+    width: 100%;
+    height:20vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background: url(covid.jpg) no-repeat ;
+    background-size: 100%;
+    border-radius: 100px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgb(224, 20, 20), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+
+}
+
+.hero a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+}
