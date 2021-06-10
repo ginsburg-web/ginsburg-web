@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*body*/
+body{
+   
+   
+    background-size: 100%;
+    background-color: #e0e4eb;
+
+}
+/*header*/
+
+h1{
+    color:  #e9d735;
+    text-align: center;
+    text-shadow: 1px 1px 0 #928f86,
+    2px 2px 0 #928f86,
+     3px 3px 0 #928f86,
+     4px 4px 0 #928f86,
+     5px 5px 0 #928f86,
+     6px 6px 0 #928f86,
+     7px 7px 0 #928f86,
+     8px 8px 0 #928f86,
+     9px 9px 0 #928f86,
+     10px 10px 0 #928f86;
+    font-family:fantasy;
+    font-weight: lighter;
+    letter-spacing: 15px;
+    font-size: 85px;
+    padding: 20px;
+}
+/*pharagraphs*/
+p{
+    margin-top: 5%;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+/*sub header*/
+h2{
+    color: rgb(209, 71, 66);
+    text-align: right;
+    font-weight: bold;
+    font-style:inherit;
+    font-size: 30px;
+    padding:80px;
+    margin-top:3%;
+   
+}
+/*unorder llist*/
+ul{
+    list-style-type:circle ;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family:sans-serif;
+    color: #352835;
+   
+}
+/*images*/
+.q1,.q3{
+    align-items: center;
+    width: 40%;
+    height: auto;
+    margin-left: 50%;
+   
+}
+/*sub header*/
+h3{
+    color: rgb(136, 98, 223);
+    text-align: left;
+    font-style:italic;
+    font-size: 30px;
+    padding: 50;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+/*image*/
+.q2{
+    
+    width: 40%;
+    height: auto;
+    margin-left:2%;
+  margin-top: 5%;
+}
+
+.q3{
+    width: 35%;
+    margin-bottom: 3%;
+    border-radius: 25%;
+}
+
+/*------------ Button --------*/
+
+.hero{
+    width: 100%;
+    height:20vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background: url(covid.jpg) no-repeat ;
+    background-size: 100%;
+    border-radius: 100px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgb(224, 20, 20), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+
+}
+
+.hero a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+}
